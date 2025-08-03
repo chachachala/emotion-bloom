@@ -4,23 +4,23 @@ import heroImage from "@/assets/hero-emotional-intelligence.jpg";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-calm">
+    <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-cosmic">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="inline-flex items-center space-x-2 bg-accent/20 text-accent-foreground px-4 py-2 rounded-full text-sm font-medium">
+              <div className="inline-flex items-center space-x-2 bg-gradient-accent text-white px-4 py-2 rounded-full text-sm font-medium shadow-warm">
                 <Sparkles className="h-4 w-4" />
                 <span>Descubre tu potencial emocional</span>
               </div>
               
-              <h1 className="text-5xl lg:text-6xl font-display font-bold text-foreground leading-tight">
+              <h1 className="text-5xl lg:text-6xl font-display font-bold text-white leading-tight">
                 Desarrolla tu
-                <span className="bg-gradient-primary bg-clip-text text-transparent"> Inteligencia Emocional</span>
+                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent"> Inteligencia Emocional</span>
               </h1>
               
-              <p className="text-xl text-muted-foreground leading-relaxed">
+              <p className="text-xl text-white/90 leading-relaxed">
                 Aprende a comprender, gestionar y aplicar tus emociones para mejorar 
                 tus relaciones, tomar mejores decisiones y encontrar el bienestar 
                 que mereces.
@@ -33,7 +33,7 @@ const HeroSection = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
               
-              <Button variant="outline" size="lg" className="border-2 border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300">
+              <Button variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary transition-all duration-300">
                 Ver recursos gratuitos
               </Button>
             </div>
@@ -41,16 +41,16 @@ const HeroSection = () => {
             {/* Stats */}
             <div className="flex flex-wrap gap-8 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">95%</div>
-                <div className="text-sm text-muted-foreground">Satisfacción</div>
+                <div className="text-3xl font-bold text-white">95%</div>
+                <div className="text-sm text-white/70">Satisfacción</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">10K+</div>
-                <div className="text-sm text-muted-foreground">Estudiantes</div>
+                <div className="text-3xl font-bold text-white">10K+</div>
+                <div className="text-sm text-white/70">Estudiantes</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-primary">5★</div>
-                <div className="text-sm text-muted-foreground">Valoración</div>
+                <div className="text-3xl font-bold text-white">5★</div>
+                <div className="text-sm text-white/70">Valoración</div>
               </div>
             </div>
           </div>
@@ -66,8 +66,9 @@ const HeroSection = () => {
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -top-6 -right-6 w-32 h-32 bg-accent/20 rounded-full animate-warm-pulse"></div>
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-secondary/30 rounded-full"></div>
+            <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-accent rounded-full animate-warm-pulse opacity-30"></div>
+            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-secondary rounded-full opacity-40"></div>
+            <div className="absolute top-1/4 -left-8 w-16 h-16 bg-gradient-primary rounded-full opacity-20"></div>
           </div>
         </div>
       </div>

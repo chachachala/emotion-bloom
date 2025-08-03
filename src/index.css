@@ -8,52 +8,58 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Warm emotional intelligence color palette */
-    --background: 210 60% 98%;
-    --foreground: 220 15% 25%;
+    /* Vibrant emotional intelligence color palette */
+    --background: 310 15% 97%;
+    --foreground: 260 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 25%;
+    --card-foreground: 260 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 25%;
+    --popover-foreground: 260 20% 15%;
 
-    /* Sky blue primary - calming and trustworthy */
-    --primary: 200 85% 55%;
+    /* Vibrant purple primary - creativity and wisdom */
+    --primary: 280 85% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 200 85% 75%;
+    --primary-glow: 290 85% 75%;
 
-    /* Mint green secondary - growth and harmony */
-    --secondary: 160 65% 85%;
-    --secondary-foreground: 160 40% 25%;
+    /* Electric green secondary - growth and energy */
+    --secondary: 150 70% 55%;
+    --secondary-foreground: 150 50% 15%;
 
-    /* Soft lavender muted - gentle and calming */
-    --muted: 260 35% 94%;
-    --muted-foreground: 220 15% 55%;
+    /* Soft lavender muted - calm within energy */
+    --muted: 280 25% 94%;
+    --muted-foreground: 260 15% 45%;
 
-    /* Warm coral accent - empathy and warmth */
-    --accent: 15 85% 75%;
-    --accent-foreground: 15 40% 25%;
+    /* Dynamic orange accent - passion and warmth */
+    --accent: 25 95% 60%;
+    --accent-foreground: 25 50% 15%;
 
-    --destructive: 0 70% 60%;
+    --destructive: 0 85% 65%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 25% 90%;
-    --input: 220 25% 90%;
-    --ring: 200 85% 55%;
+    --border: 280 20% 88%;
+    --input: 280 20% 88%;
+    --ring: 280 85% 60%;
 
-    /* Gradients for emotional warmth */
+    /* Dynamic gradients for excitement */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-secondary: linear-gradient(135deg, hsl(var(--secondary)), hsl(150 70% 70%));
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)), hsl(35 95% 70%));
     --gradient-calm: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     --gradient-warm: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--secondary)));
+    --gradient-energy: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--secondary)));
+    --gradient-cosmic: linear-gradient(135deg, hsl(280 85% 60%), hsl(320 85% 65%), hsl(25 95% 60%));
 
-    /* Shadows with emotional warmth */
-    --shadow-gentle: 0 4px 20px hsl(var(--primary) / 0.15);
-    --shadow-warm: 0 8px 30px hsl(var(--accent) / 0.2);
+    /* Vibrant shadows with energy */
+    --shadow-gentle: 0 4px 20px hsl(var(--primary) / 0.25);
+    --shadow-warm: 0 8px 30px hsl(var(--accent) / 0.35);
+    --shadow-energy: 0 10px 40px hsl(var(--primary) / 0.3), 0 0 20px hsl(var(--accent) / 0.2);
 
-    /* Transitions for smooth interactions */
+    /* Smooth transitions for dynamic interactions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-gentle: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    --transition-bounce: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --radius: 1rem;
 
@@ -68,34 +74,34 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 220 25% 8%;
-    --foreground: 210 20% 85%;
+    --background: 260 25% 8%;
+    --foreground: 280 20% 90%;
 
-    --card: 220 25% 10%;
-    --card-foreground: 210 20% 85%;
+    --card: 260 25% 10%;
+    --card-foreground: 280 20% 90%;
 
-    --popover: 220 25% 10%;
-    --popover-foreground: 210 20% 85%;
+    --popover: 260 25% 10%;
+    --popover-foreground: 280 20% 90%;
 
-    --primary: 200 85% 65%;
-    --primary-foreground: 220 25% 8%;
-    --primary-glow: 200 85% 75%;
+    --primary: 280 85% 70%;
+    --primary-foreground: 260 25% 8%;
+    --primary-glow: 290 85% 80%;
 
-    --secondary: 160 25% 20%;
-    --secondary-foreground: 160 65% 85%;
+    --secondary: 150 70% 65%;
+    --secondary-foreground: 150 25% 15%;
 
-    --muted: 220 25% 15%;
-    --muted-foreground: 220 15% 65%;
+    --muted: 260 25% 15%;
+    --muted-foreground: 280 15% 70%;
 
-    --accent: 15 65% 65%;
-    --accent-foreground: 15 25% 15%;
+    --accent: 25 95% 70%;
+    --accent-foreground: 25 25% 15%;
 
-    --destructive: 0 70% 55%;
+    --destructive: 0 85% 70%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 220 25% 20%;
-    --input: 220 25% 20%;
-    --ring: 200 85% 65%;
+    --border: 260 25% 20%;
+    --input: 260 25% 20%;
+    --ring: 280 85% 70%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
@@ -124,18 +130,18 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Hero button with gradient and warmth */
+  /* Hero button with dynamic gradient and energy */
   .btn-hero {
-    @apply bg-gradient-to-r from-primary to-primary-glow text-primary-foreground 
+    @apply bg-gradient-to-r from-primary via-accent to-secondary text-primary-foreground 
            px-8 py-4 rounded-full font-medium transition-all duration-300
-           hover:shadow-lg hover:scale-105 active:scale-95;
-    box-shadow: var(--shadow-gentle);
+           hover:shadow-xl hover:scale-105 active:scale-95 hover:-translate-y-1;
+    box-shadow: var(--shadow-energy);
   }
 
-  /* Gentle card with emotional warmth */
+  /* Dynamic card with vibrant energy */
   .card-gentle {
     @apply bg-card border border-border rounded-3xl p-6 
-           transition-all duration-300 hover:shadow-lg;
+           transition-all duration-300 hover:shadow-xl hover:-translate-y-2;
     box-shadow: var(--shadow-gentle);
   }
 

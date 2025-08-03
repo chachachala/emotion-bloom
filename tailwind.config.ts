@@ -70,16 +70,22 @@ export default {
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-accent': 'var(--gradient-accent)',
 				'gradient-calm': 'var(--gradient-calm)',
 				'gradient-warm': 'var(--gradient-warm)',
+				'gradient-energy': 'var(--gradient-energy)',
+				'gradient-cosmic': 'var(--gradient-cosmic)',
 			},
 			boxShadow: {
 				'gentle': 'var(--shadow-gentle)',
 				'warm': 'var(--shadow-warm)',
+				'energy': 'var(--shadow-energy)',
 			},
 			transitionTimingFunction: {
 				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
 				'gentle': 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+				'bounce': 'cubic-bezier(0.68, -0.55, 0.265, 1.55)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
