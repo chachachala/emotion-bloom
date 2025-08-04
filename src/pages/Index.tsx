@@ -19,9 +19,7 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Próximamente: Un test interactivo personalizado para evaluar tu IE
             </p>
-            <div className="bg-white rounded-2xl p-12 shadow-gentle">
-              <p className="text-muted-foreground">🧠 Sección en desarrollo...</p>
-            </div>
+            
           </div>
         </section>
 
@@ -33,9 +31,7 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Biblioteca completa de libros, podcasts, videos y herramientas digitales
             </p>
-            <div className="bg-gradient-calm rounded-2xl p-12 shadow-gentle">
-              <p className="text-muted-foreground">📚 Sección en desarrollo...</p>
-            </div>
+            
           </div>
         </section>
 
@@ -47,9 +43,7 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Artículos sobre emociones, relaciones, mindfulness y crecimiento personal
             </p>
-            <div className="bg-white rounded-2xl p-12 shadow-gentle">
-              <p className="text-muted-foreground">✍️ Sección en desarrollo...</p>
-            </div>
+            
           </div>
         </section>
 
@@ -61,9 +55,7 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Conecta con otros en su viaje de crecimiento emocional
             </p>
-            <div className="bg-gradient-calm rounded-2xl p-12 shadow-gentle">
-              <p className="text-muted-foreground">👥 Sección en desarrollo...</p>
-            </div>
+            
           </div>
         </section>
 
