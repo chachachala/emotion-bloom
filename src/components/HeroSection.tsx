@@ -1,10 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroImage from "@/assets/hero-emotional-intelligence.jpg";
-
 const HeroSection = () => {
-  return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-primary">
+  return <section id="inicio" className="relative min-h-screen flex items-center bg-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
@@ -58,11 +56,7 @@ const HeroSection = () => {
           {/* Hero Image */}
           <div className="relative">
             <div className="relative z-10 animate-gentle-float">
-              <img
-                src={heroImage}
-                alt="Personas conectando emocionalmente"
-                className="w-full h-auto rounded-3xl shadow-warm"
-              />
+              <img src={heroImage} alt="Personas conectando emocionalmente" className="w-full h-auto rounded-3xl shadow-warm" />
             </div>
             
             {/* Decorative elements */}
@@ -79,8 +73,6 @@ const HeroSection = () => {
           <div className="w-1 h-3 bg-primary rounded-full mt-2 animate-pulse"></div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
