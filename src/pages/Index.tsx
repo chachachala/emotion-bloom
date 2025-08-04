@@ -2,10 +2,8 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import WhatIsEISection from "@/components/WhatIsEISection";
 import ComponentsSection from "@/components/ComponentsSection";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       <main>
         <HeroSection />
@@ -77,9 +75,7 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               ¿Necesitas ayuda? Estamos aquí para apoyarte en tu crecimiento emocional
             </p>
-            <div className="bg-white rounded-2xl p-12 shadow-gentle">
-              <p className="text-muted-foreground">📧 Sección en desarrollo...</p>
-            </div>
+            
           </div>
         </section>
       </main>
@@ -96,8 +92,6 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;

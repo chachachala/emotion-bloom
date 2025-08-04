@@ -1,50 +1,37 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Users, TrendingUp } from "lucide-react";
-
 const WhatIsEISection = () => {
-  const benefits = [
-    {
-      icon: Brain,
-      title: "Mejor toma de decisiones",
-      description: "Las emociones guían nuestras decisiones más que la lógica pura"
-    },
-    {
-      icon: Heart,
-      title: "Bienestar emocional",
-      description: "Reduce el estrés y aumenta la satisfacción personal"
-    },
-    {
-      icon: Users,
-      title: "Relaciones más fuertes",
-      description: "Mejora la comunicación y la conexión con otros"
-    },
-    {
-      icon: TrendingUp,
-      title: "Éxito profesional",
-      description: "90% del rendimiento laboral depende de la inteligencia emocional"
-    }
-  ];
-
-  const timeline = [
-    {
-      year: "1990",
-      title: "Primeros estudios",
-      description: "Mayer y Salovey acuñan el término 'Inteligencia Emocional'"
-    },
-    {
-      year: "1995",
-      title: "Popularización",
-      description: "Daniel Goleman publica su bestseller sobre IE"
-    },
-    {
-      year: "2000+",
-      title: "Investigación actual",
-      description: "Miles de estudios confirman su importancia en todos los ámbitos de la vida"
-    }
-  ];
-
-  return (
-    <section id="que-es" className="section-padding bg-gradient-calm">
+  const benefits = [{
+    icon: Brain,
+    title: "Mejor toma de decisiones",
+    description: "Las emociones guían nuestras decisiones más que la lógica pura"
+  }, {
+    icon: Heart,
+    title: "Bienestar emocional",
+    description: "Reduce el estrés y aumenta la satisfacción personal"
+  }, {
+    icon: Users,
+    title: "Relaciones más fuertes",
+    description: "Mejora la comunicación y la conexión con otros"
+  }, {
+    icon: TrendingUp,
+    title: "Éxito profesional",
+    description: "90% del rendimiento laboral depende de la inteligencia emocional"
+  }];
+  const timeline = [{
+    year: "1990",
+    title: "Primeros estudios",
+    description: "Mayer y Salovey acuñan el término 'Inteligencia Emocional'"
+  }, {
+    year: "1995",
+    title: "Popularización",
+    description: "Daniel Goleman publica su bestseller sobre IE"
+  }, {
+    year: "2000+",
+    title: "Investigación actual",
+    description: "Miles de estudios confirman su importancia en todos los ámbitos de la vida"
+  }];
+  return <section id="que-es" className="section-padding bg-gradient-calm">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">
@@ -72,18 +59,11 @@ const WhatIsEISection = () => {
                 largo de toda la vida. Es la diferencia entre reaccionar y responder, 
                 entre sobrevivir y prosperar.
               </p>
-              <div className="bg-accent/10 border-l-4 border-accent p-4 rounded-r-lg">
-                <p className="text-accent-foreground font-medium italic">
-                  "La inteligencia emocional representa el 90% de lo que nos hace 
-                  avanzar en la vida cuando el CI y las habilidades técnicas son similares."
-                </p>
-                <cite className="text-sm text-muted-foreground">- Daniel Goleman</cite>
-              </div>
+              
             </div>
 
             <div className="grid grid-cols-2 gap-4">
-              {benefits.map((benefit) => (
-                <Card key={benefit.title} className="card-gentle empathy-hover">
+              {benefits.map(benefit => <Card key={benefit.title} className="card-gentle empathy-hover">
                   <CardContent className="p-6 text-center space-y-3">
                     <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
                       <benefit.icon className="h-6 w-6 text-white" />
@@ -91,8 +71,7 @@ const WhatIsEISection = () => {
                     <h4 className="font-semibold text-foreground">{benefit.title}</h4>
                     <p className="text-sm text-muted-foreground">{benefit.description}</p>
                   </CardContent>
-                </Card>
-              ))}
+                </Card>)}
             </div>
           </div>
         </div>
@@ -108,13 +87,8 @@ const WhatIsEISection = () => {
             <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-gradient-primary hidden md:block"></div>
             
             <div className="space-y-12">
-              {timeline.map((item, index) => (
-                <div key={item.year} className={`flex items-center ${
-                  index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                }`}>
-                  <div className={`w-full md:w-5/12 ${
-                    index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:text-left md:pl-8'
-                  }`}>
+              {timeline.map((item, index) => <div key={item.year} className={`flex items-center ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
+                  <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:text-right md:pr-8' : 'md:text-left md:pl-8'}`}>
                     <Card className="card-gentle">
                       <CardContent className="p-6">
                         <div className="text-2xl font-bold text-primary mb-2">{item.year}</div>
@@ -130,8 +104,7 @@ const WhatIsEISection = () => {
                   </div>
                   
                   <div className="hidden md:block w-5/12"></div>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
         </div>
@@ -180,8 +153,6 @@ const WhatIsEISection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default WhatIsEISection;
