@@ -15,7 +15,7 @@ const HeroSection = () => {
               
               <h1 className="text-5xl lg:text-6xl font-display font-bold text-white leading-tight">
                 Desarrolla tu
-                <span className="text-accent"> Inteligencia Emocional</span>
+                <span className="text-foreground"> Inteligencia Emocional</span>
               </h1>
               
               <p className="text-xl text-white/90 leading-relaxed">
