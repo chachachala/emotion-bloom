@@ -130,11 +130,11 @@ All colors MUST be HSL.
 }
 
 @layer components {
-  /* Hero button with dynamic gradient and energy */
+  /* Hero button with solid primary color */
   .btn-hero {
-    @apply bg-gradient-to-r from-primary via-accent to-secondary text-primary-foreground 
+    @apply bg-primary text-primary-foreground 
            px-8 py-4 rounded-full font-medium transition-all duration-300
-           hover:shadow-xl hover:scale-105 active:scale-95 hover:-translate-y-1;
+           hover:shadow-xl hover:scale-105 active:scale-95 hover:-translate-y-1 hover:bg-primary-glow;
     box-shadow: var(--shadow-energy);
   }
 

@@ -4,20 +4,20 @@ import heroImage from "@/assets/hero-emotional-intelligence.jpg";
 
 const HeroSection = () => {
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-cosmic">
+    <section id="inicio" className="relative min-h-screen flex items-center bg-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="inline-flex items-center space-x-2 bg-gradient-accent text-white px-4 py-2 rounded-full text-sm font-medium shadow-warm">
+              <div className="inline-flex items-center space-x-2 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium shadow-warm">
                 <Sparkles className="h-4 w-4" />
                 <span>Descubre tu potencial emocional</span>
               </div>
               
               <h1 className="text-5xl lg:text-6xl font-display font-bold text-white leading-tight">
                 Desarrolla tu
-                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent"> Inteligencia Emocional</span>
+                <span className="text-accent"> Inteligencia Emocional</span>
               </h1>
               
               <p className="text-xl text-white/90 leading-relaxed">
@@ -66,9 +66,9 @@ const HeroSection = () => {
             </div>
             
             {/* Decorative elements */}
-            <div className="absolute -top-6 -right-6 w-32 h-32 bg-gradient-accent rounded-full animate-warm-pulse opacity-30"></div>
-            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-gradient-secondary rounded-full opacity-40"></div>
-            <div className="absolute top-1/4 -left-8 w-16 h-16 bg-gradient-primary rounded-full opacity-20"></div>
+            <div className="absolute -top-6 -right-6 w-32 h-32 bg-accent rounded-full animate-warm-pulse opacity-30"></div>
+            <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-secondary rounded-full opacity-40"></div>
+            <div className="absolute top-1/4 -left-8 w-16 h-16 bg-primary-glow rounded-full opacity-20"></div>
           </div>
         </div>
       </div>
