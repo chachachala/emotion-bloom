@@ -18,10 +18,10 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 260 20% 15%;
 
-    /* Vibrant purple primary - creativity and wisdom */
-    --primary: 280 85% 60%;
+    /* Vibrant blue primary - trust and clarity */
+    --primary: 220 85% 60%;
     --primary-foreground: 0 0% 100%;
-    --primary-glow: 290 85% 75%;
+    --primary-glow: 210 85% 75%;
 
     /* Electric green secondary - growth and energy */
     --secondary: 150 70% 55%;
@@ -40,7 +40,7 @@ All colors MUST be HSL.
 
     --border: 280 20% 88%;
     --input: 280 20% 88%;
-    --ring: 280 85% 60%;
+    --ring: 220 85% 60%;
 
     /* Dynamic gradients for excitement */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
@@ -49,7 +49,7 @@ All colors MUST be HSL.
     --gradient-calm: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
     --gradient-warm: linear-gradient(135deg, hsl(var(--accent)), hsl(var(--secondary)));
     --gradient-energy: linear-gradient(45deg, hsl(var(--primary)), hsl(var(--accent)), hsl(var(--secondary)));
-    --gradient-cosmic: linear-gradient(135deg, hsl(280 85% 60%), hsl(320 85% 65%), hsl(25 95% 60%));
+    --gradient-cosmic: linear-gradient(135deg, hsl(220 85% 60%), hsl(210 85% 65%), hsl(25 95% 60%));
 
     /* Vibrant shadows with energy */
     --shadow-gentle: 0 4px 20px hsl(var(--primary) / 0.25);
@@ -83,9 +83,9 @@ All colors MUST be HSL.
     --popover: 260 25% 10%;
     --popover-foreground: 280 20% 90%;
 
-    --primary: 280 85% 70%;
+    --primary: 220 85% 70%;
     --primary-foreground: 260 25% 8%;
-    --primary-glow: 290 85% 80%;
+    --primary-glow: 210 85% 80%;
 
     --secondary: 150 70% 65%;
     --secondary-foreground: 150 25% 15%;
@@ -101,7 +101,7 @@ All colors MUST be HSL.
 
     --border: 260 25% 20%;
     --input: 260 25% 20%;
-    --ring: 280 85% 70%;
+    --ring: 220 85% 70%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
