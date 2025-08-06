@@ -32,7 +32,14 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               Biblioteca completa de libros, podcasts, videos y herramientas digitales
             </p>
-            
+            <a 
+              href="https://emocionaligencia.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-hero inline-block"
+            >
+              Visitar Blog de Inteligencia Emocional
+            </a>
           </div>
         </section>
 
