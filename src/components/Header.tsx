@@ -45,9 +45,14 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="btn-hero">
+            <a 
+              href="https://www.yourselfirst.com/es/iq?utm_source=google&utm_medium=cpc&utm_campaign=LATAM_IQ_test&utm_term=test+de+inteligencia+emocional&utm_ad_id=725214188822&utm_adset_id=170438745005&utm_campaign_id=22017225326&utm_adset_name=LATAM_IQ_test&utm_campaign_name=LATAM_IQ_test&gclid=CjwKCAjw-svEBhB6EiwAEzSdrusxT--dRJE5y7F4ysTBzmOBzVB-DN8Bqv0V6oBrtcNd4RUSERPqxBoCLaYQAvD_BwE&gbraid=0AAAAA-F0vozzPNDl0tMyHzQNrsFA3rCyB&uuid=9b53afc7-85c0-430c-b142-888c1ef30ddf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-hero inline-block"
+            >
               Comenzar Test
-            </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -81,9 +86,14 @@ const Header = () => {
                 </a>
               ))}
               <div className="px-4 pt-2">
-                <Button className="btn-hero w-full">
+                <a 
+                  href="https://www.yourselfirst.com/es/iq?utm_source=google&utm_medium=cpc&utm_campaign=LATAM_IQ_test&utm_term=test+de+inteligencia+emocional&utm_ad_id=725214188822&utm_adset_id=170438745005&utm_campaign_id=22017225326&utm_adset_name=LATAM_IQ_test&utm_campaign_name=LATAM_IQ_test&gclid=CjwKCAjw-svEBhB6EiwAEzSdrusxT--dRJE5y7F4ysTBzmOBzVB-DN8Bqv0V6oBrtcNd4RUSERPqxBoCLaYQAvD_BwE&gbraid=0AAAAA-F0vozzPNDl0tMyHzQNrsFA3rCyB&uuid=9b53afc7-85c0-430c-b142-888c1ef30ddf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="btn-hero w-full inline-block text-center"
+                >
                   Comenzar Test
-                </Button>
+                </a>
               </div>
             </nav>
           </div>
