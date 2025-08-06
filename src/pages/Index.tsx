@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import WhatIsEISection from "@/components/WhatIsEISection";
 import ComponentsSection from "@/components/ComponentsSection";
+import ContactModal from "@/components/ContactModal";
 const Index = () => {
   return <div className="min-h-screen">
       <Header />
@@ -67,7 +68,7 @@ const Index = () => {
             <p className="text-xl text-muted-foreground mb-8">
               ¿Necesitas ayuda? Estamos aquí para apoyarte en tu crecimiento emocional
             </p>
-            
+            <ContactModal />
           </div>
         </section>
       </main>
