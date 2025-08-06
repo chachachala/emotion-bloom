@@ -17,13 +17,13 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur-md border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/90 backdrop-blur-md border-b border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <div className="bg-gradient-primary p-2 rounded-full">
-              <Heart className="h-6 w-6 text-white" />
+              <Heart className="h-6 w-6 text-primary-foreground" />
             </div>
             <span className="text-xl font-display font-bold text-foreground">
               Emotion Bloom
@@ -75,7 +75,7 @@ const Header = () => {
 
         {/* Mobile Navigation */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border bg-white/95 backdrop-blur-md">
+          <div className="md:hidden py-4 border-t border-border bg-background/95 backdrop-blur-md">
             <nav className="flex flex-col space-y-3">
               {navItems.map((item) => (
                 <a

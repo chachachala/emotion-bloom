@@ -13,12 +13,12 @@ const HeroSection = () => {
                 <span>Descubre tu potencial emocional</span>
               </div>
               
-              <h1 className="text-5xl lg:text-6xl font-display font-bold text-white leading-tight">
+              <h1 className="text-5xl lg:text-6xl font-display font-bold text-primary-foreground leading-tight">
                 Desarrolla tu
-                <span className="text-foreground"> Inteligencia Emocional</span>
+                <span className="text-accent"> Inteligencia Emocional</span>
               </h1>
               
-              <p className="text-xl text-white/90 leading-relaxed">
+              <p className="text-xl text-primary-foreground/90 leading-relaxed">
                 Aprende a comprender, gestionar y aplicar tus emociones para mejorar 
                 tus relaciones, tomar mejores decisiones y encontrar el bienestar 
                 que mereces.
@@ -36,7 +36,7 @@ const HeroSection = () => {
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
               
-              <Button variant="outline" size="lg" className="border-2 border-white text-blue-500 hover:bg-white hover:text-primary transition-all duration-300">
+              <Button variant="outline" size="lg" className="border-2 border-primary-foreground text-primary hover:bg-primary-foreground hover:text-primary transition-all duration-300">
                 Ver recursos gratuitos
               </Button>
             </div>
@@ -44,16 +44,16 @@ const HeroSection = () => {
             {/* Stats */}
             <div className="flex flex-wrap gap-8 pt-8">
               <div className="text-center">
-                <div className="text-3xl font-bold text-white">95%</div>
-                <div className="text-sm text-white/70">Satisfacción</div>
+                <div className="text-3xl font-bold text-primary-foreground">95%</div>
+                <div className="text-sm text-primary-foreground/70">Satisfacción</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-white">10K+</div>
-                <div className="text-sm text-white/70">Estudiantes</div>
+                <div className="text-3xl font-bold text-primary-foreground">10K+</div>
+                <div className="text-sm text-primary-foreground/70">Estudiantes</div>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-white">5★</div>
-                <div className="text-sm text-white/70">Valoración</div>
+                <div className="text-3xl font-bold text-primary-foreground">5★</div>
+                <div className="text-sm text-primary-foreground/70">Valoración</div>
               </div>
             </div>
           </div>

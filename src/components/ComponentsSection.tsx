@@ -45,7 +45,7 @@ const ComponentsSection = () => {
   ];
 
   return (
-    <section id="componentes" className="section-padding bg-white">
+    <section id="componentes" className="section-padding bg-background">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16">

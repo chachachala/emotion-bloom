@@ -47,7 +47,7 @@ const WhatIsEISection = () => {
         </div>
 
         {/* Main Definition */}
-        <div className="bg-white rounded-3xl p-8 md:p-12 shadow-gentle mb-16">
+        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-gentle mb-16">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h3 className="text-3xl font-display font-semibold text-foreground">
@@ -66,7 +66,7 @@ const WhatIsEISection = () => {
               {benefits.map(benefit => <Card key={benefit.title} className="card-gentle empathy-hover">
                   <CardContent className="p-6 text-center space-y-3">
                     <div className="w-12 h-12 bg-gradient-primary rounded-full flex items-center justify-center mx-auto">
-                      <benefit.icon className="h-6 w-6 text-white" />
+                      <benefit.icon className="h-6 w-6 text-primary-foreground" />
                     </div>
                     <h4 className="font-semibold text-foreground">{benefit.title}</h4>
                     <p className="text-sm text-muted-foreground">{benefit.description}</p>
@@ -110,7 +110,7 @@ const WhatIsEISection = () => {
         </div>
 
         {/* Models */}
-        <div className="bg-white rounded-3xl p-8 md:p-12 shadow-gentle">
+        <div className="bg-card rounded-3xl p-8 md:p-12 shadow-gentle">
           <h3 className="text-3xl font-display font-semibold text-center text-foreground mb-8">
             Modelos principales
           </h3>

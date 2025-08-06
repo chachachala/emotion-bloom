@@ -14,7 +14,7 @@ const Index = () => {
         {/* Placeholder sections for future development */}
         
 
-        <section id="recursos" className="section-padding bg-white text-center">
+        <section id="recursos" className="section-padding bg-background text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-display font-bold text-foreground mb-6">
               Recursos y Herramientas
@@ -44,13 +44,13 @@ const Index = () => {
       </main>
 
       {/* Footer */}
-      <footer className="bg-foreground text-white py-12">
+      <footer className="bg-foreground text-primary-foreground py-12">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h3 className="text-2xl font-display font-bold mb-4">Emotion Bloom</h3>
-          <p className="text-white/80 mb-6">
+          <p className="text-primary-foreground/80 mb-6">
             Transformando vidas a través de la inteligencia emocional
           </p>
-          <p className="text-white/60 text-sm">
+          <p className="text-primary-foreground/60 text-sm">
             © 2024 Emotion Bloom. Todos los derechos reservados.
           </p>
         </div>
