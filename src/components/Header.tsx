@@ -9,7 +9,7 @@ const Header = () => {
     { name: "Inicio", href: "#inicio" },
     { name: "¿Qué es IE?", href: "#que-es" },
     { name: "Componentes", href: "#componentes" },
-    { name: "Test IE", href: "#test" },
+    { name: "Test IE", href: "https://www.yourselfirst.com/es/iq?utm_source=google&utm_medium=cpc&utm_campaign=LATAM_IQ_test&utm_term=test+de+inteligencia+emocional&utm_ad_id=725214188822&utm_adset_id=170438745005&utm_campaign_id=22017225326&utm_adset_name=LATAM_IQ_test&utm_campaign_name=LATAM_IQ_test&gclid=CjwKCAjw-svEBhB6EiwAEzSdrusxT--dRJE5y7F4ysTBzmOBzVB-DN8Bqv0V6oBrtcNd4RUSERPqxBoCLaYQAvD_BwE&gbraid=0AAAAA-F0vozzPNDl0tMyHzQNrsFA3rCyB&uuid=9b53afc7-85c0-430c-b142-888c1ef30ddf", external: true },
     { name: "Recursos", href: "#recursos" },
     { name: "Blog", href: "#blog" },
     { name: "Comunidad", href: "#comunidad" },
@@ -36,6 +36,8 @@ const Header = () => {
               <a
                 key={item.name}
                 href={item.href}
+                target={item.external ? "_blank" : undefined}
+                rel={item.external ? "noopener noreferrer" : undefined}
                 className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
               >
                 {item.name}
@@ -79,6 +81,8 @@ const Header = () => {
                 <a
                   key={item.name}
                   href={item.href}
+                  target={item.external ? "_blank" : undefined}
+                  rel={item.external ? "noopener noreferrer" : undefined}
                   className="text-foreground hover:text-primary transition-colors duration-200 font-medium px-4 py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
