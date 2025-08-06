@@ -12,60 +12,23 @@ const Index = () => {
         <ComponentsSection />
         
         {/* Placeholder sections for future development */}
-        <section id="test" className="section-padding bg-muted/20 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-display font-bold text-foreground mb-6">
-              Test de Inteligencia Emocional
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Próximamente: Un test interactivo personalizado para evaluar tu IE
-            </p>
-            
-          </div>
-        </section>
+        
 
         <section id="recursos" className="section-padding bg-white text-center">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl font-display font-bold text-foreground mb-6">
               Recursos y Herramientas
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Biblioteca completa de libros, podcasts, videos y herramientas digitales
-            </p>
-            <a 
-              href="https://emocionaligencia.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-hero inline-block"
-            >
+            
+            <a href="https://emocionaligencia.com/" target="_blank" rel="noopener noreferrer" className="btn-hero inline-block">
               Visitar Blog de Inteligencia Emocional
             </a>
           </div>
         </section>
 
-        <section id="blog" className="section-padding bg-muted/20 text-center">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-display font-bold text-foreground mb-6">
-              Blog de Inteligencia Emocional
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Artículos sobre emociones, relaciones, mindfulness y crecimiento personal
-            </p>
-            
-          </div>
-        </section>
+        
 
-        <section id="comunidad" className="section-padding bg-white text-center">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl font-display font-bold text-foreground mb-6">
-              Comunidad y Foro
-            </h2>
-            <p className="text-xl text-muted-foreground mb-8">
-              Conecta con otros en su viaje de crecimiento emocional
-            </p>
-            
-          </div>
-        </section>
+        
 
         <section id="contacto" className="section-padding bg-gradient-warm text-center">
           <div className="max-w-4xl mx-auto">
